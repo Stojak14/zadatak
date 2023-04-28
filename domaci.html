@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Domaci</title>
+</head>
+<body>
+    <header>
+        <h4><i class="fa-solid fa-arrow-left"></i> Work Order Details</h4>
+    </header>
+
+    <div class="asset container">
+        <h3>Preventative Maintenance</h3>
+        <div class="asset__type">
+            <p>Standard Asset Type Definition: Compressed Gas Proportioners, Oxygen-Air</p>
+        </div>
+
+        <hr class="asset__hr">
+
+        <div class="asset__number">
+         <div class="asset__first"> 
+            <p class="asset__number__title">Number</p>
+            <p class="asset__number__text"><span>CWKD1058433</span></p>
+        </div>      
+            <hr class="asset__number_hr">
+        <div class="asset__second">    
+            <p class="asset__number__title">Asset</p>
+            <p class="asset__number__text1">UltraBlender - AAF02336</p>
+        </div>
+        
+            
+        </div>
+    </div>
+    
+
+    <div class="task container">
+        <div class="task__title">
+            <p>Tasks</p>
+        </div>
+        <hr class="task__hr">
+        <div class="intro">
+            <div class="left">
+        <i class="fa-solid fa-chevron-down"></i><p> Compressed Gas Proportioners, Oxygen-Air</p>
+            </div>
+            <div class="right">
+        <p>2/4</p>
+        <i class="fa-sharp fa-solid fa-circle-half-stroke"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="task__date">
+                <div class="task__date__header">
+                <i class="fa-regular fa-circle-check"></i><p>01. Date of Last Overhaul</p>
+            </div>
+                <div class="task__date__time">
+                    <input type="date" id="start" name="last-date"
+       value="2023-04-03">
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="visual">
+                <div class="visual__header">
+                <i class="fa-regular fa-circle-check"></i><p>02. Visual inspection</p>
+            </div>
+            <div class="visual__answer">
+                <div class="pass"><p>Pass</p></div>
+                <div class="fail"><p>Fail</p></div>
+                <div class="na"><p>N/A</p></div>
+            </div>
+            <p class="exp__answer">Expected Answer: Pass</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="alarm">
+                <div class="alarm__header">
+                    <i class="fa-regular fa-circle"></i><p>03. Audible Alarm</p>
+                </div>
+                <div class="visual__answer">
+                    <div class="pass"><p>Pass</p></div>
+                    <div class="fail"><p>Fail</p></div>
+                    <div class="na"><p>N/A</p></div>
+                </div>
+                <p class="exp__answer">Expected Answer: Pass</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="flow">
+                <div class="flow__header">
+                    <i class="fa-regular fa-circle"></i><p>04. Flow Verification</p>
+                </div>
+                <div class="visual__answer">
+                    <div class="pass"><p>Pass</p></div>
+                    <div class="fail"><p>Fail</p></div>
+                    <div class="na"><p>N/A</p></div>
+                </div>
+                <p class="exp__answer">Expected Answer: Pass</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="actual">
+            <div class="actual__header">
+                <i class="fa-regular fa-circle"></i><p>05. 21% O2 Actual</p>
+            </div>
+            <div class="textarea">
+                <textarea name="text" id="text" placeholder="Type here..."></textarea><button class="btn">ml</button>
+            </div>
+        </div>
+        </div>
+
+        <div class="box">
+            <div class="actual__second">
+            <div class="actual__header">
+                <i class="fa-regular fa-circle"></i><p>06. 30% O2 Actual</p>
+            </div>
+            <div class="textarea">
+                <textarea name="text" id="text" placeholder="Type here..."></textarea>
+            </div>
+        </div>
+        <div class="dugmici">
+            <button class="btn-save">Save Work Order</button>
+        <button class="btn-cancel">Cancel</button>
+        
+    </div>
+        </div>
+</body>
+</html>
